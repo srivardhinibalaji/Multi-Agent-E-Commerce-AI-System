@@ -51,15 +51,7 @@ Generates:
 
 ## 🔄 Workflow
 
-User
-↓
-Ecommerce Agent
-↓
-Catalog Agent
-↓
-Checkout Agent
-↓
-Order Summary Agent
+User->Ecommerce Agent->Catalog Agent->Checkout Agent->Order Summary Agent
 
 Agents communicate through **agent transfer**, while important information is maintained using **session state**.
 
